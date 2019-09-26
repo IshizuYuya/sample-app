@@ -13,7 +13,6 @@ class TestApp(object):
         ('Yuya', 'Hello Yuya!'),
     })
     def test_app(self, name, expected):
-        print(sys.path)
         actual = make_message(name)
 
         assert actual == expected
