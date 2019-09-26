@@ -16,4 +16,4 @@ class TestApp(object):
         print(sys.path)
         actual = make_message(name)
 
-        assert actual == expecte
+        assert actual == expected
