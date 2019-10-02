@@ -7,7 +7,7 @@ from app.utils import make_message
 
 
 class TestApp(object):
-    """concourse testing."""
+    """concourse testing!!"""
 
     @pytest.mark.parametrize(('name', 'expected'), {
         ('Ishizu', 'Hello Ishizu!'),
