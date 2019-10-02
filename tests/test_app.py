@@ -7,7 +7,7 @@ from app.utils import make_message
 
 
 class TestApp(object):
-    """appのテストコード"""
+    """appのテストコードです"""
 
     @pytest.mark.parametrize(('name', 'expected'), {
         ('Ishizu', 'Hello Ishizu!'),
