@@ -9,8 +9,8 @@ class TestApp(object):
     """concourse testing!!"""
 
     @pytest.mark.parametrize(('name', 'expected'), {
-        ('Ishizu', 'Hello Ishizu!!!'),
-        ('Yuya', 'Hello Yuya!!!'),
+        ('Ishizu', 'Hello Ishizu!'),
+        ('Yuya', 'Hello Yuya!'),
     })
     def test_app(self, name, expected):
         actual = make_message(name)
