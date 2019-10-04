@@ -9,7 +9,7 @@ class TestApp(object):
     """concourse testing!!"""
 
     @pytest.mark.parametrize(('name', 'expected'), {
-        ('Ishizu', 'Hello Ishizu!!'),
+        ('Ishizu', 'Hello Ishizu!'),
         ('Yuya', 'Hello Yuya!'),
     })
     def test_app(self, name, expected):
