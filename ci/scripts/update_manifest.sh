@@ -1,3 +1,4 @@
+#!/bin/bash
 tag=`cat sample-app-branch/.git/logs/refs/remotes/origin/HEAD | cut -d ' ' -f 2`
 git clone sample-app-manifest changed-manifest
 sed -i 's/sample-app:*/sample-app:'${tag}'/g' changed-manifest/manifest.yml
