@@ -8,7 +8,9 @@ app = Flask(__name__)
 @app.route('/hello')
 def hello():
     """sample api"""
+    print('START /hello')
     name = request.args.get('name')
+    print('END /hello')
     return make_message(name)
 
 
